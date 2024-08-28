@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/icon/nm.png" type="image/x-icon">
+
+    <!-- font awesomes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="src/dist/css/output.css">
+    <link rel="stylesheet" href="src/dist/css/hamburgers.css">
+
+    <!-- animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body id="home" class="overflow-x-hidden">
+
+    <!-- navbar start-->
+        <div class="navbar px-4 py-3">
+            <div class="container mx-auto">
+                <div class="navbar-box flex items-center justify-between">
+                    <div class="logo flex items-center gap-x-2">
+                        <img src="assets/Tailwind.png" alt="tailwind logo" class="w-12 md:w-16">
+                        <h1 class="font-bold text-xl md:text-2xl">Ngoding.</h1>
+                    </div>
+                    <ul class="menu flex gap-x-7 items-center font-semibold md:static absolute z-10 top-24 left-0 flex-col md:flex-row md:bg-transparent bg-teal-500 w-full md:w-auto">
+                        <li class="py-4 w-full text-center"><a href="#home" class="hover:text-teal-500 transition-all duration-200">Home</a></li>
+                        <li class="py-4 w-full text-center"><a href="#about" class="hover:text-teal-500 transition-all duration-200">About</a></li>
+                        <li class="py-4 w-full text-center"><a href="#services" class="hover:text-teal-500 transition-all duration-200">Services</a></li>
+                        <li class="py-4 w-full text-center"><a href="#projects" class="hover:text-teal-500 transition-all duration-200">Projects</a></li>
+                        <li class="py-4 w-full text-center"><a href="#contact" class="hover:text-teal-500 transition-all duration-200">Contact</a></li>
+                        <div class="opacity-50 md:block hidden">|</div>
+                        <i class="fa-brands fa-github text-2xl md:block hidden cursor-pointer hover:text-teal-500"></i>
+                    </ul>
+
+                    <div class="block md:hidden">
+                        <button class="hamburger hamburger--elastic" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- end -->
+
+    <!-- header start -->
+        <div class="header min-h-screen flex items-center">
+            <div class="container mx-auto px-4">
+                <div class="header-box flex lg:flex-row flex-col items-center gap-10">
+                    <div class="box lg:w-1/2 lg:order-1 order-2 text-center lg:text-left">
+                        <h1 class="font-extrabold leading-normal md:text-4xl sm:text-3xl text-2xl mb-4 md:leading-normal text-slate-900 animate__animated animate__fadeInUp animate__delay-1s">Penghijauan,Menciptakan Generasi yang cerah di masa mendatang.</h1>
+                        <p class="mb-4 md:text-base sm:text-sm text-xs text-slate-600 leading-loose md:leading-loose animate__animated animate__fadeInUp animate__delay-1s">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe labore aperiam, quae, minima quis sequi fugit ducimus dicta iusto culpa doloribus cumque. At ea adipisci quod, autem asperiores beatae praesentium.</p>
+                        <button class="w-48 h-12 bg-teal-500 text-white rounded hover:bg-teal-600 animate__animated animate__fadeInUp animate__delay-1s">Tentang Kami <i class="fa-solid fa-question ml-2"></i></button>
+                    </div>
+                    <div class="box lg:w-1/2 lg:order-2 order-1 pt-10 lg:pt-0">
+                        <img src="assets/image/hero.svg" alt="" class="xl:w-[500px] lg:w-[400px] md:w-[300px] sm:w-[250px] w-[240px] block ml-auto animate__animated animate__fadeInUp animate__delay-1s">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- header end -->
+
+    <!-- about start -->
+    <div class="about py-32" id="about">
+        <div class="container mx-auto px-4">
+            <div class="about-box">
+                <div class="box text-center">
+                    <h1 class="font-extrabold text-4xl mb-8" data-aos="fade-up" data-aos-duration="1000">About us</h1>
+                    <p class="lg:w-3/4 w-full mx-auto md:text-base text-xs leading-loose md:leading-loose" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem optio alias eaque ipsam? Laudantium pariatur fugit labore nesciunt iure culpa ab, enim quasi rerum necessitatibus, aliquam, animi et unde voluptate?</p>
+                </div>
+                <div class="box pt-16">
+                    <img src="assets/image/about1.svg" alt="" class="w-[400px] md:w-[600px] mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end -->
+    
+    <!-- services start -->
+    <div class="services py-32" id="services">
+        <div class="container px-4 mx-auto">
+            <div class="services-box">
+                <div class="box text-center">
+                    <h1 class="font-extrabold text-4xl mb-6" data-aos="fade-up" data-aos-duration="1000">services</h1>
+                    <p class="md:w-3/4 w-full mx-auto md:text-base text-xs sm:text-sm sm:leading-loose leading-loose md:leading-loose" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero dolores suscipit quibusdam quo cumque dolore tempora voluptatem consequuntur pariatur architecto.</p>
+                </div>
+                <div class="box grid md:grid-cols-2 grid-cols-1 gap-16 pt-16 items-center">
+                    <img src="assets/image/services.svg" alt="" class="w-[450px] md:justify-self-end justify-self-center"  data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="desc md:justify-self-start justify-self-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle-check text-3xl text-teal-500"></i> Penghematan Sumber Daya Energi</p>
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle-check text-3xl text-teal-500"></i> Pemanfaatan Barang Barang Lama</p>
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle-check text-3xl text-teal-500"></i> Mendaur Ulang Barang Barang Bekas</p>
+                        <p class="flex items-center gap-4 text-xl font-bold mb-6"><i class="fa-solid fa-circle-check text-3xl text-teal-500"></i> Penanaman Pohon Atau Tanaman Terbaik</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services end -->
+    
+    <!-- projects start-->
+    <div class="projects py-32" id="projects">
+        <div class="container mx-auto px-4">
+            <div class="projects-box">
+                <div class="box text-center">
+                    <h1 class="font-extrabold text-4xl mb-6" data-aos="fade-up" data-aos-duration="1000">Projects</h1>
+                    <p data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="200">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, doloremque.</p>
+                </div>
+                <div class="box flex items-center justify-center gap-4 flex-wrap pt-12"  data-aos="fade-right" data-aos-duration="1000">
+                    <div class="p-16 bg-teal-100 text-center">
+                        <h1 class="text-4xl font-bold mb-2">10000+</h1>
+                        <p>Orang Bergabung</p>
+                    </div>
+                    <div class="p-16 bg-teal-600 text-center">
+                        <h1 class="text-4xl font-bold mb-2">200+</h1>
+                        <p>Perusahaan Bekerjasama</p>
+                    </div>
+                    <div class="p-16 bg-teal-100 text-center">
+                        <h1 class="text-4xl font-bold mb-2">1500+</h1>
+                        <p>Project Terselesaikan</p>
+                    </div>
+                </div>
+                <div class="box flex flex-wrap gap-4 items-center justify-center pt-16">
+                    <img src="assets/image/services1.jpg" alt="" class="w-[300px] h-[250px]">
+                    <img src="assets/image/services2.jpg" alt="" class="w-[300px] h-[250px]">
+                    <img src="assets/image/services3.jpg" alt="" class="w-[300px] h-[250px]">
+                    <img src="assets/image/services4.jpg" alt="" class="w-[300px] h-[250px]">
+                    <img src="assets/image/services5.jpg" alt="" class="w-[300px] h-[250px]">
+                    <img src="assets/image/services6.jpg" alt="" class="w-[300px] h-[250px]">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- projects end -->
+    
+    <!-- contact start -->
+    <div class="contact py-32" id="contact">
+        <div class="container px-4 mx-auto">
+            <div class="contact-box">
+                <div class="box text-center">
+                    <h1 class="font-extrabold text-4xl mb-6">contact</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dicta?</p>
+                </div>
+                <form action="https://formsubmit.co/fm886211@gmail.com" method="post" class="mt-10">
+                    <table class="mx-auto w-3/4 lg:w-3/5">
+                        <tr>
+                            <td><input type="text" name="nama lengkap" placeholder="Nama Lengkap..." autocomplete="off" required class="w-full h-12 p-3 rounded-md border"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" name="Email" placeholder="Email..." autocomplete="off" required class="w-full h-12 p-3 rounded-md border"></td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="Pesan" id="" cols="30" rows="10" placeholder="Pesan..." required autocomplete="off" class="w-full rounded-md border p-3"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><button class="w-40 h-10 bg-teal-500 ml-auto block font-bold rounded hover:bg-teal-600">Kirim</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div> 
+    <!-- contact end -->
+    
+    <!-- footer start -->
+    <div class="footer py-12 bg-slate-900 text-white" id="footer">
+        <div class="container px-4 mx-auto">
+            <div class="footer-box flex justify-around lg:flex-row flex-col lg:gap-0 gap-10">
+                <div class="box lg:w-[500px]">
+                    <div class="logo flex items-center gap-2">
+                        <img src="assets/Tailwind.png" alt="" class="w-16">
+                        <h1 class="font-bold text-2xl">Ngoding.</h1>
+                    </div>
+                    <div class="desc">
+                        <p class="opacity-50 text-base leading-loose">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, blanditiis earum natus ad eos nisi. Reiciendis exercitationem autem ea ipsum necessitatibus maxime nihil explicabo neque quis accusantium.
+                        </p>
+                    </div>
+                </div>
+                <div class="box flex flex-col lg:w-[100px] gap-2">
+                    <h4 class="font-bold text-lg">Menu</h4>
+                    <a href="#" class="opacity-50 hover:opacity-100">Home</a>
+                    <a href="#" class="opacity-50 hover:opacity-100">About</a>
+                    <a href="#" class="opacity-50 hover:opacity-100">Services</a>
+                    <a href="#" class="opacity-50 hover:opacity-100">Projects</a>
+                    <a href="#" class="opacity-50 hover:opacity-100">Contact</a>
+                </div>
+                <div class="box flex flex-col lg:w-[200px] gap-2">
+                    <h4 class="font-bold text-lg">Company</h4>
+                    <a class="opacity-50 hover:opacity-100" href="#">Terms Of Services</a>
+                    <a class="opacity-50 hover:opacity-100" href="#">Privacy Policy</a>
+                    <a class="opacity-50 hover:opacity-100" href="#">Blog</a>
+                    <a class="opacity-50 hover:opacity-100" href="#">Cookies Setting</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+    <!-- button back to top star -->
+     <a href="#home">
+        <i class="fa-solid fa-circle-arrow-up fixed bottom-10 right-10 text-5xl text-teal-500 cursor-pointer z-20 hover:text-teal-600 hidden" title="kembali ke atas"></i>
+     </a>
+    <!-- button back to top end -->
+
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="src/dist/js/script.js"></script>
+</body>
+</html>
