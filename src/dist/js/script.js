@@ -12,6 +12,6 @@ window.addEventListener('scroll',()=>{
     btnBTT.classList.toggle('btn-active',windowPosition);
 
     hamburger.classList.remove('is-active');
-    menu.classList.remove('.menu-active');
+    menu.classList.remove('menu-active');
 });
 
