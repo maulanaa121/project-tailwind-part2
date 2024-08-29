@@ -24,6 +24,11 @@
         --animate-delay:0.4s;
     }
 
+    .fa-circle-arrow-up.btn-active{
+        display:block;
+    }
+
+
 @media screen and (max-width:768px){
     .menu{
         transform : scale(0);
